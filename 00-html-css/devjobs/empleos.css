@@ -156,6 +156,15 @@ section > main {
       padding: 0.6rem 1.2rem;
       border-radius: 0.5rem;
       font-weight: 600;
+      cursor: pointer;
+
+      &:hover,/* psoudo clase que indica cuando el mouse esta encima del boton */
+      &:focus {
+        /* psoudo clase que indica cuando el boton esta enfocado */
+        background-color: var(--primary-dark);
+        color: white;
+        outline: 2px solid var(--primary-dark);
+      }
     }
   }
 }
@@ -175,6 +184,14 @@ footer {
     background-color: var(--input-bg);
     color: var(--text-secondary);
     cursor: pointer;
+
+    &:hover,/* psoudo clase que indica cuando el mouse esta encima del boton */
+    &:focus {
+      /* psoudo clase que indica cuando el boton esta enfocado */
+      background-color: var(--primary-light);
+      color: white;
+      outline: 2px solid var(--primary-light);
+    }
   }
 }
 
